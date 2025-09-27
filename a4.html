@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            shaurya si the best
+        </title>
+    </head>
+    <body>
+        
+    <script>
+        // strings
+         let orderPizza = new Promise((resolve, reject) => {
+            let pizzaAvaible = true
+            if (pizzaAvaible) {
+                resolve("Pizza is ready");
+
+
+            } else {
+                reject("sorry ")
+            }
+
+         });
+         orderPizza
+         .then((message) => {
+            console.log("succes", message)
+         })
+         .catch((error) =>{
+            console.log("error", error)
+         })
+    </script>
+    </body>
+</html>
